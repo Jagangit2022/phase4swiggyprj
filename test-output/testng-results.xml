@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-10T23:33:59 IST" name="Default suite" finished-at="2022-08-10T23:35:51 IST" duration-ms="111888">
+    <groups>
+    </groups>
+    <test started-at="2022-08-10T23:33:59 IST" name="Default test" finished-at="2022-08-10T23:35:51 IST" duration-ms="111888">
+      <class name="com.test.setDelvLoc">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.setDelvLoc@7722c3c3]" started-at="2022-08-10T23:33:59 IST" name="setUp" finished-at="2022-08-10T23:34:43 IST" duration-ms="43976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavToSearchPage()[pri:0, instance:com.test.setDelvLoc@7722c3c3]" started-at="2022-08-10T23:34:43 IST" name="testNavToSearchPage" finished-at="2022-08-10T23:35:14 IST" duration-ms="31417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavToSearchPage -->
+        <test-method signature="testRestaurantSrch()[pri:0, instance:com.test.setDelvLoc@7722c3c3]" started-at="2022-08-10T23:35:14 IST" name="testRestaurantSrch" finished-at="2022-08-10T23:35:30 IST" depends-on-methods="com.test.setDelvLoc.testNavToSearchPage" duration-ms="15445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestaurantSrch -->
+        <test-method signature="testDishSrch()[pri:0, instance:com.test.setDelvLoc@7722c3c3]" started-at="2022-08-10T23:35:30 IST" name="testDishSrch" finished-at="2022-08-10T23:35:42 IST" depends-on-methods="com.test.setDelvLoc.testRestaurantSrch, com.test.setDelvLoc.testNavToSearchPage" duration-ms="12220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDishSrch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.setDelvLoc@7722c3c3]" started-at="2022-08-10T23:35:42 IST" name="tearDown" finished-at="2022-08-10T23:35:51 IST" duration-ms="8660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.setDelvLoc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
